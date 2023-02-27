@@ -17,11 +17,10 @@ let posUsuari=0; //
 
 function obtenirNom(Noms){
     // Returns a random integer from 0 to 9:  Math.floor(Math.random() * 10);
-    
+    var nom= Noms[Math.floor(Math.random() * Noms.length)]
     //TODO: mostrar el nom a la pàgina index.html
-    //document.querySelector('body').
-    
-    return Noms[Math.floor(Math.random() * Noms.length)]
+    document.getElementById('resultat').innerHTML = nom;
+    return nom
 }
 
 console.log( "Alumne: ",obtenirNom(arrayNoms));

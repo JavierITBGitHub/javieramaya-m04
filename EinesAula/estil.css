@@ -1,0 +1,39 @@
+
+/*
+The display: inline-block Value
+Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element,
+so the element can sit next to other elements.
+*/
+html{
+    margin: -7.8px;
+    border: 0px;
+}
+
+header{
+    background-color: #1E90FF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+main{
+    background-color: #00FFFF;
+    width: 65%;
+    height: 90vh; /* vh ... means the height of this element is equal to 100% of the viewport height. example: height: 50vh; If your screen height is 1000px, your element height will be equal to 500px (50% of 1000px). height: calc(100% - 100px); will calculate the size of the element by using the value of the element.*/
+    float: left;
+}
+aside{
+    background-color: #7FFFD4;
+    width: 35%;
+    height: 90vh;
+    display: inline-block;
+}
+
+footer{
+    background-color: #FFE4C4;
+    display: inline-block;
+    width: 100%;
+    height: 10vh
+}

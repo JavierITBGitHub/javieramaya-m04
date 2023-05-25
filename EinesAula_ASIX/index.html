@@ -1,0 +1,50 @@
+<!DOCTYPE html >
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Eines Aula</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reloj.css">
+    <script type="text/javascript" src="./JS/reloj.js"></script>
+     <link rel="icon" type="image/x-icon" href="./images/jab.png">
+</head>
+<body onload="actualizaReloj()">
+<header class="header">
+    <nav class="menu_nav">
+        <a class="menu_reloj"  id="horaActual">hh:mm:ss</a>
+        <a class="menu_opc" href="./index.html">MAIN PAGE</a>
+        <a class="menu_opc" href="./tools/roulette/rulette-html.html">ROULETTE</a>
+        <a class="menu_opc" href="./tools/timer/timer-main.html">TIMER</a>
+        <label id="switch" class="menu_button">
+        <input type="checkbox">
+        <span class="slider round"></span>
+        </label>
+    </nav>
+
+</header>
+<div class="seccion_herramientas">
+    <div class="contenedor_herramientas">
+        <a href="tools/roulette/rulette-html.html">
+            <div class="item item1">
+                <div>
+                    <img class="imagen_herramientas" src="images/main/ruolette.png" alt="">
+                    <h2 class="titulo_herramientas">Ruleta</h2>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="contenedor_herramientas">
+        <a href="tools/timer/timer-main.html">
+            <div class="item item2">
+                <div>
+                    <img class="imagen_herramientas" src="images/main/crono.png" alt="">
+                    <h2 class="titulo_herramientas">Cronometro</h2>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<script src="./JS/darkMode.js"></script>
+</body>
+
+</html>

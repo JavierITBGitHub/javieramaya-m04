@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Roulette</title>
+    <link rel="stylesheet" href="../../CSS/style.css">
+    <link rel="stylesheet" href="../../CSS/reloj.css">
+    <script type="text/javascript" src="../../JS/reloj.js"></script>
+    <link rel="icon" type="image/x-icon" href="../../images/jab.png">
+</head>
+
+<body onload="actualizaReloj()">
+<header class="header">
+    <nav class="menu_nav">
+        <a class="menu_reloj"  id="horaActual">hh:mm:ss</a>
+        <a class="menu_opc" href="../../index.html">MAIN PAGE</a>
+        <a class="menu_opc" href="../../tools/roulette/rulette-html.html">ROULETTE</a>
+        <a class="menu_opc_last" href="../../tools/timer/timer-main.html">TIMER</a>
+        <label id="switch" class="menu_button">
+        <input type="checkbox">
+        <span class="slider round"></span>
+        </label>
+    </nav>
+</header>
+<div id="coutainer_main" class="central_div">
+    <div class="container_botom">
+        <button id="rotar" >
+            GO
+        </button>
+    </div>
+    <div id="container_list">
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+<audio id="runRuolette" src="../../images/roulette/ruleta.mp3"></audio>
+<audio id="winner" src="../../images/roulette/winner.mp3"></audio>
+</body>
+<script src="../../JS/roulette/forRoulette.js"></script>
+<script src="../../JS/darkMode.js"></script>
+</html>

@@ -1,0 +1,17 @@
+/* CSS code */
+/*
+    Free FONTS
+    https://www.onlinewebfonts.com/fonts
+
+    Digital
+    https://www.onlinewebfonts.com/download/84cb021d5f9af287ffff84b61beef6dc
+*/
+
+@import url(//db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons);
+
+#horaActual {
+font-family: 'clockicons', sans-serif;
+color: blue;
+font-size: 2.5em;
+}
+
